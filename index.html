@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kevin Soto — Electrical and Computer Engineer specializing in electrical testing, embedded systems, FPGA design, and automation.">
+  <meta name="author" content="Kevin Soto">
+  <meta property="og:title" content="Kevin Soto | Electrical & Computer Engineer">
+  <meta property="og:description" content="Electrical testing, embedded systems, FPGA design, automation, and hardware/software troubleshooting.">
+  <meta property="og:type" content="website">
+  <title>Kevin Soto | Electrical & Computer Engineer</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Kevin Soto home">
+        <span class="brand-mark">KS</span>
+        <span>Kevin Soto</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Electrical testing · Embedded systems · Digital design</p>
+          <h1>
+            I build and test systems where
+            <span>electrical hardware meets software.</span>
+          </h1>
+          <p class="hero-description">
+            Electrical and Computer Engineer with hands-on experience in high-voltage
+            production testing, embedded C/C++, FPGA design, automation, and
+            hardware/software troubleshooting.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my work</a>
+            <a class="button secondary" href="https://github.com/kevinsj9898-star" target="_blank" rel="noopener noreferrer">
+              GitHub profile
+            </a>
+          </div>
+
+          <ul class="quick-facts" aria-label="Professional highlights">
+            <li><strong>M.S.</strong><span>Computer Engineering</span></li>
+            <li><strong>B.S.</strong><span>Electrical Engineering</span></li>
+            <li><strong>El Paso</strong><span>Texas, USA</span></li>
+          </ul>
+        </div>
+
+        <div class="signal-panel reveal" aria-label="Animated electrical signal illustration">
+          <div class="instrument-top">
+            <span>TEST SYSTEM // ONLINE</span>
+            <span class="status"><i></i> READY</span>
+          </div>
+
+          <div class="scope">
+            <div class="scope-grid"></div>
+            <svg viewBox="0 0 600 260" role="img" aria-label="Animated oscilloscope waveform">
+              <path class="signal-glow" d="M0 135 L70 135 L85 92 L105 182 L125 78 L145 135 L220 135 L235 110 L250 160 L268 98 L286 135 L375 135 L390 82 L410 188 L430 105 L448 135 L600 135"/>
+              <path class="signal-line" d="M0 135 L70 135 L85 92 L105 182 L125 78 L145 135 L220 135 L235 110 L250 160 L268 98 L286 135 L375 135 L390 82 L410 188 L430 105 L448 135 L600 135"/>
+            </svg>
+          </div>
+
+          <div class="readouts">
+            <div><span>FOCUS</span><strong>Electrical Test</strong></div>
+            <div><span>TOOLS</span><strong>C / C++ / FPGA</strong></div>
+            <div><span>MODE</span><strong>Build · Validate</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About me</p>
+          <h2>Engineering with a test-first mindset</h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p>
+            My background combines electrical engineering, computer engineering,
+            manufacturing test, and hands-on system troubleshooting. I enjoy turning
+            schematics, requirements, and ideas into systems that can be measured,
+            validated, and improved.
+          </p>
+          <p>
+            I am especially interested in Electrical Test Engineering, Embedded Systems,
+            Digital Design, and Test Automation roles where I can contribute across both
+            hardware and software.
+          </p>
+          <div class="availability">
+            <span class="pulse"></span>
+            Open to electrical, test, embedded, and digital-design opportunities
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section current-build">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Currently building</p>
+          <h2>ESP32 Test Cycle Tracking System</h2>
+        </div>
+
+        <article class="featured-build reveal">
+          <div>
+            <span class="project-status">Concept / prototype planning</span>
+            <p>
+              A low-cost system that uses presence sensors to identify when an electrical
+              section enters and exits a test position, measures the test cycle, and
+              presents timing data on a local display.
+            </p>
+
+            <div class="tag-row">
+              <span>ESP32</span>
+              <span>Presence sensors</span>
+              <span>Cycle timing</span>
+              <span>Display UI</span>
+              <span>Data logging</span>
+            </div>
+          </div>
+
+          <div class="system-flow" aria-label="System block diagram">
+            <div class="flow-node">Sensor A</div>
+            <span>→</span>
+            <div class="flow-node emphasized">ESP32</div>
+            <span>→</span>
+            <div class="flow-node">Display</div>
+            <span>→</span>
+            <div class="flow-node">Cycle Data</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected projects</p>
+          <h2>From embedded control to digital architecture</h2>
+          <p>
+            Projects that demonstrate system design, programming, experimentation,
+            communication protocols, and technical problem-solving.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-number">01</div>
+            <p class="project-type">Research · Hardware Security</p>
+            <h3>Electromagnetic Fault Injection</h3>
+            <p>
+              Investigated transient faults on an Arduino Nano using a PicoEMP platform,
+              observing effects such as bit flips, instruction skips, resets, and altered
+              serial behavior.
+            </p>
+            <ul>
+              <li>Designed repeatable hardware experiments</li>
+              <li>Interpreted fault behavior and system responses</li>
+              <li>Documented observations and test conditions</li>
+            </ul>
+            <div class="tag-row">
+              <span>Arduino</span><span>EMFI</span><span>Embedded C</span><span>Testing</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <p class="project-type">FPGA · Digital Design</p>
+            <h3>8-Bit Processor Architecture</h3>
+            <p>
+              Designed processor components including a program counter, instruction
+              register, memory interface, ALU, and status flags for zero, negative,
+              carry, and overflow conditions.
+            </p>
+            <ul>
+              <li>Created modular RTL components</li>
+              <li>Integrated datapath and control behavior</li>
+              <li>Validated functionality through simulation</li>
+            </ul>
+            <div class="tag-row">
+              <span>Verilog</span><span>Vivado</span><span>RTL</span><span>FPGA</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <p class="project-type">Embedded · Secure Communication</p>
+            <h3>AES Microcontroller Link</h3>
+            <p>
+              Developed a secured communication link between microcontrollers using
+              UART transport and AES-based protection for transmitted data.
+            </p>
+            <ul>
+              <li>Implemented serial data exchange</li>
+              <li>Applied encryption to embedded communication</li>
+              <li>Tested end-to-end message handling</li>
+            </ul>
+            <div class="tag-row">
+              <span>C</span><span>AES</span><span>UART</span><span>Microcontrollers</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">04</div>
+            <p class="project-type">Embedded · Mechatronics</p>
+            <h3>Gesture-Controlled RC Car</h3>
+            <p>
+              Built a remote-control car operated by hand gestures, combining ADC-based
+              gesture recognition, PWM speed control, UART communication, an LCD, and
+              SysTick timing.
+            </p>
+            <ul>
+              <li>Mapped gestures to vehicle commands</li>
+              <li>Transferred status data in real time</li>
+              <li>Coordinated timing and interrupt behavior</li>
+            </ul>
+            <div class="tag-row">
+              <span>ADC</span><span>PWM</span><span>UART</span><span>SysTick</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">05</div>
+            <p class="project-type">Real-Time Systems</p>
+            <h3>RTOS Traffic-Light Controller</h3>
+            <p>
+              Modeled coordinated traffic-light behavior with real-time tasks and
+              synchronization mechanisms for predictable event handling.
+            </p>
+            <ul>
+              <li>Used queues and semaphores</li>
+              <li>Separated behavior into scheduled tasks</li>
+              <li>Managed shared state and timing constraints</li>
+            </ul>
+            <div class="tag-row">
+              <span>RTOS</span><span>Queues</span><span>Semaphores</span><span>C</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">06</div>
+            <p class="project-type">Robotics · Computer Vision</p>
+            <h3>JetMax Object-Tracking Robot</h3>
+            <p>
+              Integrated ROS, visual detection, and PID-based servo control to track
+              faces or colored targets using a JetMax robotic platform.
+            </p>
+            <ul>
+              <li>Processed camera data with OpenCV and MTCNN</li>
+              <li>Controlled servos with PID feedback</li>
+              <li>Worked with ROS topics and services</li>
+            </ul>
+            <div class="tag-row">
+              <span>ROS</span><span>Python</span><span>OpenCV</span><span>PID</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="project-note reveal">
+          Repository links, photographs, diagrams, and detailed READMEs will be added as
+          each project is prepared for public presentation.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience & education</p>
+          <h2>A foundation in testing, research, and engineering</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-label">Professional experience</p>
+              <h3>Quality Associate II / Electrical Tester</h3>
+              <p class="organization">Schneider Electric</p>
+              <p>
+                Perform production electrical testing, interpret drawings and schematics,
+                troubleshoot test failures, and document results in a manufacturing
+                environment.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-label">Research experience</p>
+              <h3>Research Assistant</h3>
+              <p class="organization">The University of Texas at El Paso</p>
+              <p>
+                Supported electromagnetic fault-injection research involving embedded
+                targets, experimental hardware, system behavior analysis, and technical
+                documentation.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-label">Teaching experience</p>
+              <h3>Teaching Assistant — Introduction to Electrical Engineering</h3>
+              <p class="organization">The University of Texas at El Paso</p>
+              <p>
+                Assisted students with foundational electrical engineering concepts,
+                laboratory activities, problem-solving, and technical communication.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-label">Graduate education</p>
+              <h3>Master of Science in Computer Engineering</h3>
+              <p class="organization">The University of Texas at El Paso</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-label">Undergraduate education</p>
+              <h3>Bachelor of Science in Electrical Engineering</h3>
+              <p class="organization">The University of Texas at El Paso</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Skills organized around how I solve problems</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-index">A</span>
+            <h3>Electrical Test & Hardware</h3>
+            <p>High-voltage testing, schematic interpretation, troubleshooting, production validation, electrical measurements</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-index">B</span>
+            <h3>Embedded Systems</h3>
+            <p>C, C++, Arduino, ESP32, UART, ADC, PWM, interrupts, SysTick, RTOS concepts</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-index">C</span>
+            <h3>FPGA & Digital Design</h3>
+            <p>Verilog, Vivado, RTL design, processor architecture, finite-state machines, digital logic</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-index">D</span>
+            <h3>Software & Automation</h3>
+            <p>Python, Qt, Linux, Git, OpenCV, ROS, object-oriented programming, scripting</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-index">E</span>
+            <h3>Networks & Communication</h3>
+            <p>TCP/IP, UART, SDN, Mininet, Ryu, wireless and ad hoc network concepts</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-index">F</span>
+            <h3>Engineering Practice</h3>
+            <p>Test planning, experimental analysis, technical documentation, root-cause thinking, bilingual communication</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build and validate something useful.</h2>
+          <p>
+            I am interested in opportunities involving electrical testing, embedded
+            development, digital design, automation, and systems engineering.
+          </p>
+        </div>
+
+        <div class="contact-panel reveal">
+          <a href="mailto:kevinsj9898@gmail.com">
+            <span>Email</span>
+            <strong>kevinsj9898@gmail.com</strong>
+          </a>
+          <a href="https://github.com/kevinsj9898-star" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span>
+            <strong>@kevinsj9898-star</strong>
+          </a>
+          <div>
+            <span>Location</span>
+            <strong>El Paso, Texas</strong>
+          </div>
+          <div>
+            <span>Languages</span>
+            <strong>English · Spanish</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="current-year"></span> Kevin Soto</p>
+      <p>Designed for GitHub Pages · Built with HTML, CSS, and JavaScript</p>
+    </div>
+  </footer>
+</body>
+</html>
